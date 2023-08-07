@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'socialLimit': '1150px'
+      },
+    },
     fontFamily: {
       signature: ["Great Vibes"],
       logoName: ['Rajdhani']

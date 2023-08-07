@@ -1,0 +1,16 @@
+{
+    "name": "Paul Airuehia",
+    "home":{
+        "title": "I'm a Software Developer/Engineer",
+        "description": "I'm a Software Engineer/Developer with a passion for building web applications and solving problems. I'm currently a student at Lambda School, where I'm learning the skills to become a full-stack web developer. I'm also a graduate of the University of Benin, where I studied Computer Science."
+    },
+    "about":{
+        "description": "I am a software engineer and a tech enthusiast. I love to build things and solve problems. I am currently working as a software engineer at Andela. I am also a co-founder of a startup called <a href='https://www.tribe47.com'>Tribe47</a>.<br /><br />Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptates non minus dignissimos facere illum temporibus ex quaerat saepe architecto tempora provident hic corporis tenetur aperiam est laudantium quasi excepturi aspernatur harum in, optio dolorum suscipit? Totam ipsum dolor quos illum blanditiis molestias asperiores eaque? Hic libero suscipit eaque repellat."
+    },
+    "contact":{
+        "email": "mailto:osasuair@gmail.com",
+        "phone": "tel:+14379221810",
+        "linkedin": "https://www.linkedin.com/in/osasuair/",
+        "github": "https://github.com/osasuair"
+    }
+}

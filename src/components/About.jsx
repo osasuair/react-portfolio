@@ -1,4 +1,5 @@
 import React from 'react'
+import info from '../data/info.json'
 
 const About = () => {
   return (
@@ -10,16 +11,7 @@ const About = () => {
                     About
                 </p>
             </div>
-
-            <p className='text-xl mt-20 '>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem labore suscipit dolorum veniam maxime? Facere vero voluptatibus incidunt ut distinctio consequatur eaque voluptas tenetur deleniti ratione tempore consectetur optio exercitationem nam, doloremque ex eum excepturi maiores veritatis dignissimos cumque ipsa, dolor aperiam explicabo. Corrupti molestias, hic soluta veniam in dolor!
-            </p>
-
-            <br />
-
-            <p className='text-xl'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptates non minus dignissimos facere illum temporibus ex quaerat saepe architecto tempora provident hic corporis tenetur aperiam est laudantium quasi excepturi aspernatur harum in, optio dolorum suscipit? Totam ipsum dolor quos illum blanditiis molestias asperiores eaque? Hic libero suscipit eaque repellat.
-            </p>
+            <p className='text-xl mt-20 ' dangerouslySetInnerHTML={{__html: info.about.description}}></p>
         </div>
     </div>
   )
