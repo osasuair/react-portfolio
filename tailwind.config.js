@@ -6,11 +6,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'socialLimit': '1150px'
+        'socialLimit': '1385px'
       },
     },
     fontFamily: {
-      signature: ["Great Vibes"],
       logoName: ['Rajdhani']
     }
   },

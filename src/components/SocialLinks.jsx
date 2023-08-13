@@ -67,8 +67,8 @@ const SocialLinks = () => {
     
 
     return (
-        <div className='hidden md:flex flex-col top-20 absolute socialLimit:top-[40%] duration-200 left-0 lg:fixed'>
-            <ul>
+        <div className='hidden md:flex flex-col top-20 absolute socialLimit:top-0 socialLimit:h-screen left-0 socialLimit:fixed'>
+            <ul className='my-auto'>
 
                 {links.map(({id, text, child, href, style, download}) => (
                     <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-teal-500 " + style}>

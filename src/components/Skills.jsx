@@ -1,84 +1,59 @@
 import React from 'react'
 
-import cpp from '../images/skills/cpp.png'
-import csharp from '../images/skills/csharp.png'
-import kotlin from '../images/skills/kotlin.png'
-import java from '../images/skills/java.png'
-import js from '../images/skills/js.png'
-import python from '../images/skills/python.png'
-import git from '../images/skills/git.png'
-import mongodb from '../images/skills/mongodb.png'
-import sql from '../images/skills/sql.png'
+import { IoSchool } from 'react-icons/io5'
+import { FaDesktop } from 'react-icons/fa'
 
+import { skillDesc, skills, courses, methodologies } from '../data/Skills'
 
 const Skills = () => {
 
-    const skills = [
-        {
-            id: 1,
-            src: java,
-            title: 'Java',
-        },
-        {
-            id: 2,
-            src: cpp,
-            title: 'C++',
-        },
-        {
-            id: 3,
-            src: js,
-            title: 'JavaScript',
-        },
-        {
-            id: 4,
-            src: csharp,
-            title: 'C#',
-        },
-        {
-            id: 5,
-            src: python,
-            title: 'Python',
-        },
-        {
-            id: 6,
-            src: mongodb,
-            title: 'MongoDB',
-        },
-        {
-            id: 7,
-            src: git,
-            title: 'Git',
-        },
-        {
-            id: 8,
-            src: sql,
-            title: 'MySQL',
-        },
-        {
-            id: 9,
-            src: kotlin,
-            title: 'Kotlin',
-        }
-    ]
-
     return (
-        <div name="skills" className='bg-gradient-to-b from-black to-gray-900 w-full md:h-screen'>
-            <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-                <div>
-                    <p className='text-5xl font-bold border-b-4 border-gray-500 p-2 inline'>Skills</p>
-                    <p className='py-6 text-2xl'>These are the technologies I've worked with!</p>
+        <div name="skills" className='bg-gradient-to-b from-black to-gray-900 w-full h-full min-h-screen text-white'>
+            <div className='max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full h-full min-h-screen py-24'>
+                <div className='pb-2'>
+                    <p className='text-4xl font-bold border-b-4 border-gray-500 inline'>Skills</p>
+                    <p className='py-6 text-gray-400 leading-6' dangerouslySetInnerHTML={{__html: skillDesc}}></p>
                 </div>
-
-                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-2 px-12 sm:px-0'>
-                    {skills.map(({id, src, title}) => (
-                        <div 
-                            key={id} 
-                            className="shadow-xl hover:scale-110 duration-500 py-2 rounded-lg bg-gradient-to-b from-teal-800"
-                        >
-                            <img src={src} alt={title} className='w-20 mx-auto'/>
-                            <p className='mt-4 pb-2 text-xl '>{title}</p>
+                <div className='w-full flex flex-col md:flex-row'>
+                    <div className='w-full md:w-1/2 mb-5 md:mb-0 md:mr-4 p-4 rounded-xl border-[1px] border-gray-600 bg-gray-800 bg-opacity-50 flex flex-col'>
+                        <h2 className='font-bold text-xl pb-3'>Technical Skills</h2>
+                        <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center my-auto'>
+                            {skills.map(({id, src, title}) => (
+                                <div 
+                                    key={id} 
+                                    className="shadow-xl hover:scale-110 duration-500 py-2 rounded-lg bg-gradient-to-b from-teal-800"
+                                >
+                                    <img src={src} alt={title} className='h-14 mx-auto'/>
+                                    <p className='mt-4 pb-2 text-xl '>{title}</p>
+                                </div>
+                            ))}                   
                         </div>
-                    ))}                   
+                    </div>
+                    <div className='w-full md:w-1/2 p-4 rounded-xl border-[1px] border-gray-600 bg-gray-800 bg-opacity-50'>
+                        <div className='flex flex-row items-center'>
+                            <h2 className='font-bold text-xl pb-1'>Relevant Courses</h2>
+                            <IoSchool size={50} className='ml-auto'/>
+                        </div>
+                        <div className='mb-4'>
+                            <ul className='list-disc list-inside'>
+                                {courses.map((course, index) => (
+                                    <li key={index} className='text-gray-300'>{course}</li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className='flex flex-row items-center'>
+                            <h2 className='font-bold text-xl pb-1'>Technical Methodologies<br/> & Other Skills</h2>
+                            <FaDesktop size={50} className='ml-auto'/>
+                        </div>
+                        <div>
+                            <ul className='list-disc list-inside'>
+                                {methodologies.map((method, index) => (
+                                    <li key={index} className='text-gray-300'>{method}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
