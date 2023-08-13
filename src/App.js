@@ -1,10 +1,11 @@
-import About from "./components/About";
 import Contact from "./components/Contact";
-import Experience from "./components/Experience";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import SocialLinks from "./components/SocialLinks";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import About from "./components/About";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Projects />
       <Experience />
+      <Projects />
+      <Skills />
       <Contact />
 
       <SocialLinks />

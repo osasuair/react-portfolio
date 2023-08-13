@@ -1,8 +1,9 @@
 {
     "name": "Paul Airuehia",
+    "description": "Student, Software Engineer, and Developer",
     "home":{
-        "title": "I'm a Software Developer/Engineer",
-        "description": "I'm a Software Engineer/Developer with a passion for building web applications and solving problems. I'm currently a student at Lambda School, where I'm learning the skills to become a full-stack web developer. I'm also a graduate of the University of Benin, where I studied Computer Science."
+        "title": "More about me?",
+        "description": "I am a currently majoring in <b>Computer Science</b> with a specialization in Software Engineering. I currently work as a 🧪 <b>Test Automation Engineer</b> (FSWEP) at the <b>IRCC🍁</b>. I love to fix things and solve problems🔍.<br/><br/>My main focus is applying various math/cs➗ principles to develop and improve applications. I like to describe myself as a <b>techy puzzle solver🧩</b> with a severe addiction for the feeling that comes from creating, fixing, and most especially completing technical puzzles😁.<br/><br/><b>More specifically, I enjoy working through programming problems and finding the best solution using wide selection of resources.✔️</b>"
     },
     "about":{
         "description": "I am a software engineer and a tech enthusiast. I love to build things and solve problems. I am currently working as a software engineer at Andela. I am also a co-founder of a startup called <a href='https://www.tribe47.com'>Tribe47</a>.<br /><br />Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptates non minus dignissimos facere illum temporibus ex quaerat saepe architecto tempora provident hic corporis tenetur aperiam est laudantium quasi excepturi aspernatur harum in, optio dolorum suscipit? Totam ipsum dolor quos illum blanditiis molestias asperiores eaque? Hic libero suscipit eaque repellat."

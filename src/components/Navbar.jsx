@@ -21,20 +21,24 @@ const Navbar = () => {
         },
         {
             id: 3,
-            link: 'projects',
-        },
-        {
-            id: 4,
             link: 'experience',
         },
         {
+            id: 4,
+            link: 'projects',
+        },
+        {
             id: 5,
+            link: 'skills',
+        },
+        {
+            id: 6,
             link: 'contact',
         },
     ]
 
     return (
-    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black sticky top-0 z-50'>
+    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed top-0 z-50'>
         <div className='flex flex-row items-center'>
             <img src={logo} alt={info.name} className='w-12 h-12'/>
             <span className='hidden md:inline-block ml-2 text-2xl font-bold font-logoName text-teal-300 uppercase tracking-widest'>Paul<br/>Airuehia</span>
@@ -50,7 +54,7 @@ const Navbar = () => {
 
         <ul className='hidden md:flex'>
             {links.map(({id, link}) => (
-                <li key={id} className='px-4 cursor-pointer capitalize font-medium text-teal-500 hover:scale-105 duration-200'>
+                <li key={id} className='px-3 xl:px-4 cursor-pointer capitalize font-bold text-teal-500 hover:scale-105 duration-200'>
                     <Link to={link} smooth duration={500}>
                         {link}
                     </Link>

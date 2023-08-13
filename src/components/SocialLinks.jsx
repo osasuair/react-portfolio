@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { FiPaperclip } from 'react-icons/fi'
 import info from '../data/info.json'
 
 const links = [
@@ -52,7 +52,7 @@ const links = [
             text: 'Resume',
             child: (
                 <>
-                    <BsFillPersonLinesFill size={30}/>
+                    <FiPaperclip size={30}/>
                 </>
             ),
             href: '/resume.pdf',
