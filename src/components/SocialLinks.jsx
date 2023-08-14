@@ -1,73 +1,10 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
-import { FiPaperclip } from 'react-icons/fi'
-import info from '../data/info.json'
 
-const links = [
-        {
-            id: 1,
-            text: 'LinkedIn',
-            child: (
-                <>
-                    <FaLinkedin size={30}/>
-                </>
-            ),
-            href: info.contact.linkedin,
-            style: 'rounded-tr-md',
-            altStyle: "rounded-l-md"
-        },
-        {
-            id: 2,
-            text: 'Github',
-            child: (
-                <>
-                    <FaGithub size={30}/>
-                </>
-            ),
-            href: info.contact.github,
-        },
-        {
-            id: 3,
-            text: 'Email',
-            child: (
-                <>
-                    <HiOutlineMail size={30}/>
-                </>
-            ),
-            href: info.contact.email,
-        },
-        {
-            id: 4,
-            text: 'Phone',
-            child: (
-                <>
-                    <FaPhone size={30}/>
-                </>
-            ),
-            href: info.contact.phone,          
-        },
-        {
-            id: 5,
-            text: 'Resume',
-            child: (
-                <>
-                    <FiPaperclip size={30}/>
-                </>
-            ),
-            href: '/resume.pdf',
-            style: 'rounded-br-md',
-            altStyle: "rounded-r-md",
-            download: true
-        },
-    ]
+import { links } from '../data/SocialLinks'
 
 const SocialLinks = () => {
-
-    
-
     return (
-        <div className='hidden md:flex flex-col top-20 absolute socialLimit:top-0 socialLimit:h-screen left-0 socialLimit:fixed'>
+        <div className='hidden md:flex flex-col top-20 left-0 socialLimit:top-0 socialLimit:h-screen absolute socialLimit:fixed'>
             <ul className='my-auto'>
 
                 {links.map(({id, text, child, href, style, download}) => (
@@ -84,4 +21,3 @@ const SocialLinks = () => {
 }
 
 export default SocialLinks
-export const socials = links
