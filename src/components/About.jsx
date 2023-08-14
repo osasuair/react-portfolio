@@ -13,7 +13,7 @@ const About = () => {
 
         <div className='flex flex-col items-center justify-center px-4 md:flex-row text-xl'>
           
-          <div className='flex flex-col h-full mr-10'>
+          <div className='flex flex-col h-full md:mr-10'>
             <div className='mb-2'>
               <h2 className='text-3xl text-teal-300 mb-1 font-bold'>Quick Facts</h2>
               <div className='text-lg text-gray-200'>
