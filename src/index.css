@@ -9,5 +9,6 @@
     html {
         font-family: 'Raleway', sans-serif; 
         min-width: 390px;
+        background-color: black;
     }
 }
