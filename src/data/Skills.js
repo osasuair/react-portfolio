@@ -8,7 +8,7 @@ import git from '../images/skills/git.png'
 import mongodb from '../images/skills/mongodb.png'
 import sql from '../images/skills/sql.png'
 
-const skillDesc = "These are the technical abilities I've acquired during my computer science journey so far.<br />I want to make it clear that I'm not saying I'm perfect at all of these, because that would be almost impossible and honestly, not accurate.<br/>Rather, I'm confident in my ability to thrive in any role that involves these technical skills, and I'm committed to enhancing my expertise as needed.</p>"
+const skillDesc = "These are some of the technical abilities and skills I've acquired during my computer science journey so far.<br />I want to make it clear that I'm not saying I'm perfect at all of these, because that would be almost impossible and not an accurate statement.<br/>However, I'm confident in my ability to thrive in any role that involves these technical skills, and I'm committed to enhancing my expertise as needed.</p>"
 
 const skills = [
     {
@@ -58,10 +58,10 @@ const skills = [
     }
 ]
 
-const courses = ['Data Structures and Algorithms', 'Software Engineering in C++', 'Web Application Development', 'Objected Oriented Programming in Java',
-    'Discrete Structures I-II', 'Programming Paradigms in Haskell/Prolog', 'Linear Algebra I-II', 'Calculus I', 'Systems Programming', 'Statistic Modelling'
+const courses = ['Web Application Development', 'Data Structures and Algorithms', 'Software Engineering in C++', 'Design and Analysis of Algorithms', "Human-Computer Interaction", 'Objected Oriented Programming in Java', 'Discrete Structures I-II',
+     'Programming Paradigms in Haskell/Prolog', 'Linear Algebra I-II', 'Calculus', 'Operating Systems', 'Statistic Modelling'
 ]
 
-const methodologies = ['Test-Driven Development', 'Agile', 'Object-Oriented Programming', 'Functional Programming', 'Clean Code', 'Useful Comments', "Windows/Linux", 'Virtual Machines']
+const methodologies = ['Test-Driven Development', 'Agile', 'Object-Oriented Programming', 'Functional Programming', "Windows/Linux", 'Virtual Machines']
 
 export { skillDesc, skills, courses, methodologies }

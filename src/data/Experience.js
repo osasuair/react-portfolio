@@ -51,7 +51,7 @@ const csExperience = [
         title: 'Test Automation Internship at <abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>',
         pos: 'FSWEP Program',
         desc: [
-        'Automated sanity and regression testing using Selenium and C#, reducing manual testing by 25%',
+        'Automated sanity and regression testing using Selenium and C#, reducing manual testing by 15%',
         'Enhanced quality assurance by collaborating with various teams to integrate testing into CI/CD Pipeline via Azure DevOps',
         'Identified and documented defects, improving detection of critical unidentified bugs',
         'Contributed to enhancing the automation framework'
