@@ -16,7 +16,7 @@ const Projects = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
                 {projects.map(({id, title, src, demo, code}) => ( 
                     <div key={id} className='shadow-xl hover:scale-110 duration-200 rounded-lg border-[1px] border-gray-700 bg-gray-800 bg-opacity-80'>
-                        <h2 className='text-center py-2 font-bold'>{title}</h2>
+                        <h2 className='text-center py-2'>{title}</h2>
                         <div className='bg-teal-800'>
                             <img src={src} alt="" className='mx-auto h-40' />
                         </div>

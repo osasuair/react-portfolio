@@ -2,8 +2,9 @@ import socialMedia from '../images/projects/socialMedia.png'
 import gms from '../images/projects/gms.png'
 import portfolioReact from '../images/projects/portfolioReact.png'
 import runnergame from '../images/projects/runnergame.png'
-import photogram from '../images/projects/photogram.png'
+// import photogram from '../images/projects/photogram.png'
 import tiptime from '../images/projects/tiptime.png'
+import ideas2audio from '../images/projects/ideas2Audio.jpg'
 
 const projects = [
     {
@@ -36,17 +37,17 @@ const projects = [
     },
     {
         id: 5,
-        title: 'Tip Time (Kotlin)',
+        title: 'Tip Time App (Kotlin)',
         src: tiptime,
         demo: '',
         code: 'https://github.com/osasuair/TipTime'
     },
     {
         id: 6,
-        title: 'Photogram (C++)',
-        src: photogram,
+        title: 'Ideas2Audio (React-JS Front-End)',
+        src: ideas2audio,
         demo: '',
-        code: 'https://github.com/osasuair/PhotoGram'
+        code: 'https://github.com/osasuair/Ideas2Audio'
     },
 ]
 
