@@ -16,7 +16,7 @@ const projects = [
     },
     {
         id: 2,
-        title: 'Portfolio Website (React-JS)',
+        title: 'Portfolio Website (React.js)',
         src: portfolioReact,
         demo: '',
         code: 'https://github.com/osasuair/react-portfolio'
@@ -30,10 +30,10 @@ const projects = [
     },
     {
         id: 4,
-        title: 'Artwork Social Media (Node-JS)',
+        title: 'SnapShare (Node.js)',
         src: socialMedia,
         demo: '',
-        code: 'https://github.com/osasuair/Artwork-App'
+        code: 'https://github.com/osasuair/SnapShare'
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ const projects = [
     },
     {
         id: 6,
-        title: 'Ideas2Audio (React-JS Front-End)',
+        title: 'Ideas2Audio (React.js Front-End)',
         src: ideas2audio,
         demo: '',
         code: 'https://github.com/osasuair/Ideas2Audio'
