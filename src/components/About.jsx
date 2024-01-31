@@ -17,8 +17,9 @@ const About = () => {
             <div className='mb-2'>
               <h2 className='text-2xl text-teal-300 mb-1 font-bold'>Quick Facts</h2>
               <div className='text-sm text-gray-200'>
+                <ul className=''></ul>
                 {about.facts.map((fact, index) => (
-                  <h4 key={index}>{fact}</h4>
+                  <li key={index} className='mb-1'>{fact}</li>
                 ))}
               </div>
             </div>

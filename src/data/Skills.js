@@ -18,13 +18,13 @@ const skills = [
     },
     {
         id: 2,
-        src: cpp,
-        title: 'C++',
+        src: js,
+        title: 'JavaScript',
     },
     {
         id: 3,
-        src: js,
-        title: 'JavaScript',
+        src: cpp,
+        title: 'C++',
     },
     {
         id: 4,
@@ -58,10 +58,10 @@ const skills = [
     }
 ]
 
-const courses = ['Web Application Development', 'Data Structures and Algorithms', 'Software Engineering in C++', 'Design and Analysis of Algorithms', "Human-Computer Interaction", 'Objected Oriented Programming in Java', 'Discrete Structures I-II',
-     'Programming Paradigms in Haskell/Prolog', 'Linear Algebra I-II', 'Calculus', 'Operating Systems', 'Statistic Modelling'
+const courses = ['Web Application Development', 'Data Structures and Algorithms', 'Software Engineering in C++', 'Design and Analysis of Algorithms', "Human-Computer Interaction", 'Objected Oriented Programming in Java', 'Object-Oriented Software Engineering',
+     'Programming Paradigms in Haskell', 'Linear Algebra', 'Calculus', 'Operating Systems', 'Computer Vision'
 ]
 
-const methodologies = ['Test-Driven Development', 'Agile', 'Object-Oriented Programming', 'Functional Programming', "Windows/Linux", 'Virtual Machines']
+const methodologies = ['TDD', 'Agile (Scrum)', 'Object-Oriented Programming', 'Functional Programming', "Windows/Linux", 'Virtual Machines']
 
 export { skillDesc, skills, courses, methodologies }

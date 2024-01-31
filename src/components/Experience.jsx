@@ -14,7 +14,7 @@ const Experience = () => {
             </div>
 
             <div className='h-full w-full grid sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto'>
-            <div>
+              <div>
                 <h2 className='font-extrabold text-xl lg:text-2xl bg-gradient-to-r text-transparent bg-clip-text from-teal-400 to-green-300 tracking-wide'>
                   Experience - Computer Science
                 </h2>
@@ -47,8 +47,8 @@ const Experience = () => {
                 <div className='mb-5'>
                   <h2 className='font-bold text-teal-300 text-xl lg:text-2xl'>Education</h2>
                   {education.map(({id, title, school, desc, grade, date}) => (
-                  <div className='rounded-xl my-5 p-4 hover:scale-105 duration-200 border-[1px] border-gray-600 bg-gray-800 bg-opacity-50'>
-                      <ul key={id} className='py-2 leading-5'>
+                  <div key={id} className='rounded-xl my-5 p-4 hover:scale-105 duration-200 border-[1px] border-gray-600 bg-gray-800 bg-opacity-50'>
+                      <ul className='py-2 leading-5'>
                         <li className='text-xl font-bold'>{title}</li>
                         <li className='font-bold text-gray-400 mb-2'>{school}</li>
                         {desc.map((item, index) => (

@@ -5,15 +5,15 @@ import swissKeg from '../images/experience/swissKeg.png'
 
 const education = [
     {
-      id: 1,
+      id: 112,
       title: 'Bachelor of Computer Science',
       school: 'Carleton University',
-      desc: ["Stream/Specialization: Software Engineering"],
+      desc: ["Stream/Specialization: Artificial Intelligence and Machine Learning"],
       grade: 'GPA: 11.7/12.0',
       date: 'Expected Graduation: May 2025'
     },
     {
-      id: 2,
+      id: 21,
       title: 'Ontario Secondary School Diploma',
       school: 'St. Roch Catholic Secondary School',
       desc: ["Graduated with High Honours"],
@@ -48,15 +48,16 @@ const csExperience = [
     {
         id: 1,
         image: ircc,
-        title: 'Test Automation Internship at <abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>',
+        title: 'Test Automation Internship at <abbr title="Immigration, Refugees, Citizenship Canada">IRCC</abbr>',
         pos: 'FSWEP Program',
         desc: [
-        'Automated sanity and regression testing using Selenium and C#, reducing manual testing by 15%',
-        'Enhanced quality assurance by collaborating with various teams to integrate testing into CI/CD Pipeline via Azure DevOps',
-        'Identified and documented defects, improving detection of critical unidentified bugs',
-        'Contributed to enhancing the automation framework'
+        'Developed and implemented automated regression, acceptance, and unit tests in C# utilizing Selenium and NUnit within Visual Studio.',
+        'Enhanced QA by collaborating with cross-functional teams to integrate testing and data creation',
+        "Utilized Git for version control and Azure DevOps for codebase management and CI/CD.",
+        'Identified and documented bugs in system',
+        'Contributed to enhancing our team’s automation framework codebase and outdated scripts.'
         ],
-        location: 'Ottawa, Ontario / Remote',
+        location: 'Remote',
         date: 'May 2023 - Present'
     },
     {
@@ -65,10 +66,10 @@ const csExperience = [
         title: 'Teaching Assistant at Carleton University',
         pos: 'Computer Science Dept.',
         desc: [
-        'Communicated with faculty to enhance teaching techniques, developing modern approaches for students\' benefit',
-        'Marked assignments and exams in Python/Java, providing detailed feedback',
-        'Led multiple tutorial sessions of 30+ students, providing in-depth explanations',
-        'Mentored first-year students, boosting their confidence and motivation to learn'
+        'Marked assignments and exams in Python/Java',
+        'Led multiple tutorial presentations with 30+ students',
+        'Mentored first-year students, boosting their confidence and motivation to learn',
+        'Worked with faculty to enhance teaching techniques'
         ],
         location: 'Ottawa, Ontario',
         date: 'September 2022 - April 2023'
