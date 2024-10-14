@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c38fafe.css",
-    "main.js": "/static/js/main.6cba5764.js",
+    "main.css": "/static/css/main.e7f62be2.css",
+    "main.js": "/static/js/main.74ffd8af.js",
     "static/media/award.png": "/static/media/award.bb668c9c86155b128170.png",
     "static/media/socialMedia.png": "/static/media/socialMedia.772cecec15c526ab8a9a.png",
+    "static/media/stroch.png": "/static/media/stroch.d2040af29afa899d2073.png",
     "static/media/carleton.png": "/static/media/carleton.8a8370e4bdd2e78c5540.png",
     "static/media/python.png": "/static/media/python.505b6405d73088fc2b20.png",
     "static/media/heroImage.png": "/static/media/heroImage.af792c27489a525fc338.png",
@@ -15,6 +16,7 @@
     "static/media/sql.png": "/static/media/sql.5f51a579d1fb4674b977.png",
     "static/media/ideas2Audio.jpg": "/static/media/ideas2Audio.81f465ccf672110a2bd3.jpg",
     "static/media/logo512.png": "/static/media/logo512.3477cb6cf9c0d009c565.png",
+    "static/media/google.png": "/static/media/google.d94c7dedcd351910383c.png",
     "static/media/js.png": "/static/media/js.cc340e5ca4ce9f35a9e2.png",
     "static/media/tiptime.png": "/static/media/tiptime.26190bcdb98cdbae2b71.png",
     "static/media/java.png": "/static/media/java.ddf8676bd569fe01ab44.png",
@@ -23,11 +25,11 @@
     "static/media/cpp.png": "/static/media/cpp.24a8f93854ab092f17a7.png",
     "static/media/mongodb.png": "/static/media/mongodb.c89d49ae7523697700fa.png",
     "index.html": "/index.html",
-    "main.4c38fafe.css.map": "/static/css/main.4c38fafe.css.map",
-    "main.6cba5764.js.map": "/static/js/main.6cba5764.js.map"
+    "main.e7f62be2.css.map": "/static/css/main.e7f62be2.css.map",
+    "main.74ffd8af.js.map": "/static/js/main.74ffd8af.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c38fafe.css",
-    "static/js/main.6cba5764.js"
+    "static/css/main.e7f62be2.css",
+    "static/js/main.74ffd8af.js"
   ]
 }
