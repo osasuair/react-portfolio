@@ -2,18 +2,22 @@ import ircc from '../images/experience/ircc.png'
 import carleton from '../images/experience/carleton.png'
 import canadianTire from '../images/experience/canadianTire.png'
 import swissKeg from '../images/experience/swissKeg.png'
+import google from '../images/experience/google.png'
+import stroch from '../images/experience/stroch.png'
 
 const education = [
     {
       id: 112,
+      image: carleton,
       title: 'Bachelor of Computer Science',
       school: 'Carleton University',
       desc: ["Stream/Specialization: Artificial Intelligence and Machine Learning"],
-      grade: 'GPA: 11.7/12.0',
+      grade: 'GPA: 11.73/12.0',
       date: 'Expected Graduation: May 2025'
     },
     {
       id: 21,
+      image: stroch,
       title: 'Ontario Secondary School Diploma',
       school: 'St. Roch Catholic Secondary School',
       desc: ["Graduated with High Honours"],
@@ -24,8 +28,8 @@ const education = [
 const awards = [
     {
         id: 1,
-        title: 'Carleton University Deans\' Honour List (2)',
-        date: 'May 2022, May 2023'
+        title: 'Carleton University Deans\' Honour List (3)',
+        date: 'May 2022, May 2023, May 2024'
     },
     {
         id: 2,
@@ -47,31 +51,39 @@ const awards = [
 const csExperience = [
     {
         id: 1,
+        image: google,
+        title: 'Software Engineering Internship at Google',
+        pos: 'Google Groups Platform',
+        desc: [
+            'Implemented two new backend APIs for Groups team with Java to refactor and improve the codebase',
+            'Added individual monitoring, improved maintainability, and more accurate latency tracking',
+            'Completed the project with over 15K lines of code and 90% test coverage and integration tests',
+        ],
+        location: 'Sunnyvale, CA - US',
+        date: 'June 2024 - August 2024'
+    },
+    {
+        id: 2,
         image: ircc,
         title: 'Test Automation Internship at <abbr title="Immigration, Refugees, Citizenship Canada">IRCC</abbr>',
         pos: 'FSWEP Program',
         desc: [
         'Developed and implemented automated regression, acceptance, and unit tests in C# utilizing Selenium and NUnit within Visual Studio.',
-        'Enhanced QA by collaborating with cross-functional teams to integrate testing and data creation',
-        "Utilized Git for version control and Azure DevOps for codebase management and CI/CD.",
-        'Identified and documented bugs in system',
         'Contributed to enhancing our team’s automation framework codebase and outdated scripts.'
         ],
         location: 'Remote',
-        date: 'May 2023 - Present'
+        date: 'May 2023 - April 2024'
     },
     {
-        id: 2,
+        id: 3,
         image: carleton,
         title: 'Teaching Assistant at Carleton University',
         pos: 'Computer Science Dept.',
         desc: [
-        'Marked assignments and exams in Python/Java',
-        'Led multiple tutorial presentations with 30+ students',
-        'Mentored first-year students, boosting their confidence and motivation to learn',
-        'Worked with faculty to enhance teaching techniques'
+        'Marked assignments and tests in Python/Java',
+        'Led multiple tutorial presentations with 30+ students and mentored them personally during Office hours',
         ],
-        location: 'Ottawa, Ontario',
+        location: 'Ottawa, Ontario - CA',
         date: 'September 2022 - April 2023'
     }
 ]

@@ -5,7 +5,7 @@ import { projects } from '../data/Projects'
 const Projects = () => {
 
     return (
-        <div name="projects" className='bg-gradient-to-b from-gray-900 to-black w-full text-white h-full min-h-screen'>
+        <div name="projects" className='bg-gradient-to-b from-teal-700 to-slate-900 w-full text-white h-full min-h-screen'>
 
             <div className='max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full min-h-screen py-24'>
                 <div className='pb-2'>

@@ -8,11 +8,11 @@ import { skillDesc, skills, courses, methodologies } from '../data/Skills'
 const Skills = () => {
 
     return (
-        <div name="skills" className='bg-gradient-to-b from-black to-gray-900 w-full h-full min-h-screen text-white'>
+        <div name="skills" className='bg-gradient-to-b to-teal-700 from-slate-900 w-full h-full min-h-screen text-white'>
             <div className='max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full h-full min-h-screen py-24'>
                 <div className='pb-2'>
                     <p className='text-4xl font-bold border-b-4 border-gray-500 inline'>Skills</p>
-                    <p className='py-6 text-gray-400 leading-6' dangerouslySetInnerHTML={{__html: skillDesc}}></p>
+                    <p className='py-6 text-gray-300 leading-6' dangerouslySetInnerHTML={{__html: skillDesc}}></p>
                 </div>
                 <div className='w-full flex flex-col md:flex-row'>
                     <div className='w-full md:w-1/2 mb-5 md:mb-0 md:mr-4 p-4 rounded-xl border-[1px] border-gray-600 bg-gray-800 bg-opacity-50 flex flex-col'>
@@ -43,7 +43,7 @@ const Skills = () => {
                         </div>
 
                         <div className='flex flex-row items-center'>
-                            <h2 className='font-bold text-xl pb-1'>Technical Methodologies<br/> & Other Skills</h2>
+                            <h2 className='font-bold text-xl pb-1'>Technical Methodologies<br/> & Others</h2>
                             <FaDesktop size={50} className='ml-auto'/>
                         </div>
                         <div>

@@ -23,28 +23,28 @@ const skills = [
     },
     {
         id: 3,
-        src: cpp,
-        title: 'C++',
-    },
-    {
-        id: 4,
-        src: csharp,
-        title: 'C#',
-    },
-    {
-        id: 5,
         src: python,
         title: 'Python',
     },
     {
+        id: 4,
+        src: cpp,
+        title: 'C++',
+    },
+    {
+        id: 5,
+        src: csharp,
+        title: 'C#',
+    },
+    {
         id: 6,
-        src: mongodb,
-        title: 'MongoDB',
+        src: git,
+        title: 'Git',
     },
     {
         id: 7,
-        src: git,
-        title: 'Git',
+        src: mongodb,
+        title: 'MongoDB',
     },
     {
         id: 8,
@@ -58,10 +58,10 @@ const skills = [
     }
 ]
 
-const courses = ['Web Application Development', 'Data Structures and Algorithms', 'Software Engineering in C++', 'Design and Analysis of Algorithms', "Human-Computer Interaction", 'Objected Oriented Programming in Java', 'Object-Oriented Software Engineering',
-     'Programming Paradigms in Haskell', 'Linear Algebra', 'Calculus', 'Operating Systems', 'Computer Vision'
+const courses = ['OOP in Java', 'Intro to Machine Learning', 'Intro to Artificial Intelligence', 'Web Applications', 'Software Engineering in C++', 'Design and Analysis of Algorithms', 'Computer Vision', 'Data Structures and Algorithms',
+     "Human-Computer Interaction", 'Linear Algebra', 'Calculus' 
 ]
 
-const methodologies = ['TDD', 'Agile (Scrum)', 'Object-Oriented Programming', 'Functional Programming', "Windows/Linux", 'Virtual Machines']
+const methodologies = ['Agile (Scrum)', 'Object-Oriented Programming', 'Functional Programming',  'Aspect-Oriented Programming', "Linux", 'Windows', 'Virtual Machines']
 
 export { skillDesc, skills, courses, methodologies }

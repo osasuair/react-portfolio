@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
-import { FiPaperclip } from 'react-icons/fi'
 import info from '../data/info.json'
 
 const links = [
@@ -45,20 +44,9 @@ const links = [
             </>
         ),
         href: info.contact.phone,          
-    },
-    {
-        id: 5,
-        text: 'Resume',
-        child: (
-            <>
-                <FiPaperclip size={30}/>
-            </>
-        ),
-        href: '/resume.pdf',
         style: 'rounded-br-md',
         altStyle: "rounded-r-md",
-        download: true
-    },
+    }
 ]
 
 export { links }
